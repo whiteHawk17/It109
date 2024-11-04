@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Room {
-    private int roomId;
-    private String roomType;
-    private double price;
-    private boolean available;
+    public int roomId;
+    public String roomType;
+    public double price;
+    public boolean available;
 
     public Room(int roomId, String roomType, double price, boolean available) {
         this.roomId = roomId;
@@ -56,4 +56,6 @@ public class Room {
         }
     }
 }
+
+
 
